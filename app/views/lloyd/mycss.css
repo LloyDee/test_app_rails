@@ -1,0 +1,9 @@
+#food {
+    background: green;
+}
+p {
+    background: orange;
+}
+ol, ul {
+    list-style: none;
+}
