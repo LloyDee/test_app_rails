@@ -2,6 +2,9 @@ class CreatePets < ActiveRecord::Migration[7.0]
   def change
     create_table :pets do |t|
       t.string :Name
+      t.string :Breed
+      t.numeric :Age
+      t.text :Skill
       t.text :History
 
       t.timestamps
