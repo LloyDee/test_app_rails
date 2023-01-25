@@ -1,5 +1,7 @@
 <h1>Articles listing page</h1>
-
+<form action="http://localhost:3000/">
+  <input type="submit" value="home"/>
+</form>
 <table>
   <thead>
   <tr>
@@ -13,8 +15,7 @@
     <tr>
       <td><%= article.title %></td>
       <td><%= article.description %></td>
-      <th><button>Remove</button></th>
-      <th><button>Add</button></th>
+
     </tr>
   <% end %>
   </tbody>

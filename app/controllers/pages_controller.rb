@@ -7,8 +7,5 @@ class PagesController < ApplicationController
 
   end
 
-  def article
-
-  end
 
 end
